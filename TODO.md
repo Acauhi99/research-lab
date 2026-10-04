@@ -78,10 +78,10 @@ Depois:
 
 ## Fase 6 — Durante a primeira disciplina isolada
 
-- [ ] Participar das atividades com foco em desempenho acadêmico.
+- [ ] Acompanhar as atividades e cumprir os requisitos da disciplina.
 - [ ] Registrar conceitos e métodos relevantes para o Research Lab.
 - [ ] Conhecer a linha de pesquisa do professor e conversar sobre interesses acadêmicos quando houver contexto.
-- [ ] Identificar novos trabalhos para leitura.
+- [ ] Selecionar novos trabalhos para leitura.
 - [ ] Revisar o Projeto Zero e comparar sua metodologia com o que estiver aprendendo.
 
 ## Fase 7 — Segundo semestre de 2027
@@ -97,7 +97,7 @@ Depois:
 - [ ] Acompanhar o edital e ler os critérios de seleção.
 - [ ] Organizar os componentes de pontuação e confirmar os documentos exigidos.
 - [ ] Definir o problema de pesquisa e elaborar o projeto.
-- [ ] Revisar fundamentação, metodologia e cronograma; pedir feedback a professores quando apropriado.
+- [ ] Revisar a fundamentação, a metodologia e o cronograma; pedir feedback a professores quando apropriado.
 - [ ] Organizar referências acadêmicas, se exigidas, e revisar o Currículo Lattes.
 - [ ] Submeter a candidatura.
 

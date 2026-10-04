@@ -325,7 +325,7 @@ Resultados negativos também fazem parte do processo.
 ## Estrutura sugerida para projetos
 
 ```text
-project/
+projects/<nome-do-projeto>/
 ├── README.md
 ├── research/
 │   ├── question.md
@@ -396,4 +396,4 @@ São opções de exploração, não compromissos. A escolha fica para depois do 
 
 ---
 
-Este repositório documenta como aprendo a fazer pesquisa.
+Este repositório registra meu processo de aprendizagem em pesquisa.
