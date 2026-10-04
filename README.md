@@ -2,23 +2,13 @@
 
 ## Objetivo
 
-Este repositório acompanha minha preparação para uma futura candidatura ao **Mestrado em Ciência da Computação (PPGCC/UFJF)**.
-
-A meta é desenvolver, gradualmente:
-
-- repertório sobre as áreas de pesquisa do programa;
-- capacidade de ler e comparar trabalhos acadêmicos;
-- prática de formular perguntas investigáveis;
-- experiência com pequenos experimentos;
-- maturidade metodológica para construir um projeto de mestrado consistente.
-
-A proposta não é começar tentando produzir pesquisa acadêmica perfeita. O Research Lab deve registrar a evolução do processo: das primeiras leituras e experimentos intuitivos até uma forma mais rigorosa de pesquisar.
+Este repositório registra minha preparação para uma futura candidatura ao **Mestrado em Ciência da Computação (PPGCC/UFJF)**. Vou usá-lo para ler e comparar trabalhos, formular perguntas de pesquisa e documentar pequenos experimentos. O objetivo é chegar a um projeto de mestrado com uma pergunta clara e um método consistente.
 
 ## Contexto
 
-Minha formação é em **Análise e Desenvolvimento de Sistemas** e tenho interesse em seguir carreira acadêmica, com intenção de cursar mestrado e, posteriormente, doutorado.
+Sou formado em **Análise e Desenvolvimento de Sistemas** e pretendo seguir carreira acadêmica, começando pelo mestrado e, depois, pelo doutorado.
 
-O plano atual é usar **2027 como ano de preparação**, incluindo:
+Em **2027**, pretendo:
 
 - disciplinas isoladas no PPGCC/UFJF;
 - aproximação com professores e grupos de pesquisa;
@@ -26,7 +16,7 @@ O plano atual é usar **2027 como ano de preparação**, incluindo:
 - desenvolvimento de projetos experimentais;
 - escolha gradual de uma linha de pesquisa.
 
-O ingresso principal a ser considerado é **2028**, sem descartar uma oportunidade anterior caso o cronograma do programa permita.
+Planejo me candidatar para ingresso em **2028**. Considerarei uma oportunidade anterior se o calendário do programa permitir.
 
 ---
 
@@ -71,13 +61,13 @@ Interesses possíveis:
 - recuperação de conhecimento em repositórios;
 - agentes aplicados ao ciclo de desenvolvimento.
 
-Esses eixos não são mutuamente exclusivos. Um dos objetivos do Research Lab é descobrir quais interseções fazem mais sentido para uma futura pesquisa.
+Os eixos podem se cruzar. As leituras devem ajudar a escolher quais deles vale aprofundar.
 
 ---
 
 # Fase 1 — Exploração por dissertações
 
-Antes de escolher um projeto, a estratégia é conhecer **problemas reais que já foram pesquisados dentro do PPGCC/UFJF**.
+Antes de escolher um projeto, quero conhecer **problemas já pesquisados no PPGCC/UFJF**.
 
 Não é necessário ler cada dissertação integralmente na primeira passagem.
 
@@ -94,13 +84,7 @@ Para cada dissertação:
 7. anotar termos e referências que parecem importantes;
 8. decidir se o tipo de problema desperta vontade de investigar mais.
 
-A pergunta principal desta fase não é:
-
-> Eu entendi toda a metodologia?
-
-É:
-
-> Eu teria curiosidade suficiente para passar meses investigando problemas desse tipo?
+A pergunta desta fase é: eu teria curiosidade de investigar esse tipo de problema por meses? Não é necessário entender toda a metodologia na primeira leitura.
 
 ---
 
@@ -250,7 +234,7 @@ Repositório:
 
 https://repositorio.ufjf.br/jspui/handle/ufjf/15518
 
-Essa leitura é especialmente interessante se o eixo de IA aplicada a software ganhar força, porque conecta Engenharia de Software, análise de dados, machine learning, ontologias e recomendação.
+Leia este trabalho se o eixo de IA aplicada a software estiver entre os favoritos. Ele combina Engenharia de Software, análise de dados, machine learning, ontologias e recomendação.
 
 ---
 
@@ -305,9 +289,7 @@ Nota de 0 a 5:
 
 Depois das seis leituras principais, comparar os três eixos.
 
-O objetivo não é definir a dissertação.
-
-O objetivo é conseguir dizer:
+Ao final, quero conseguir dizer:
 
 - quais tipos de problema mais despertaram curiosidade;
 - quais métodos pareceram interessantes;
@@ -321,15 +303,9 @@ Só depois dessa comparação será escolhido o primeiro **Projeto Zero**.
 
 # Fase 2 — Projeto Zero
 
-A ideia é evoluir de projetos puramente de engenharia para projetos orientados por perguntas.
+A meta é passar de projetos focados apenas em implementação para projetos guiados por uma pergunta:
 
-Em vez de apenas:
-
-> Construir uma aplicação usando determinada arquitetura ou tecnologia.
-
-o objetivo será gradualmente trabalhar no formato:
-
-> Existe uma pergunta. Um experimento é construído para tentar respondê-la.
+> Qual pergunta o experimento tenta responder?
 
 Cada projeto deve, na medida do possível, registrar:
 
@@ -382,7 +358,7 @@ Possível pergunta:
 
 > Em quais condições mover processamento da cloud para a edge reduz latência sem aumentar excessivamente o uso de recursos?
 
-Esses projetos são hipóteses de exploração, não compromissos. A escolha deve acontecer **depois do ciclo inicial de leituras**.
+São opções de exploração, não compromissos. A escolha fica para depois do ciclo inicial de leituras.
 
 ---
 
@@ -420,8 +396,4 @@ Esses projetos são hipóteses de exploração, não compromissos. A escolha dev
 
 ---
 
-## Princípio do Research Lab
-
-O objetivo deste repositório não é provar que eu já sei fazer pesquisa.
-
-O objetivo é documentar como eu aprendi a fazê-la.
+Este repositório documenta como aprendo a fazer pesquisa.

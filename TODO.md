@@ -1,301 +1,111 @@
-# TODO
+# Plano de trabalho
+
+As referências e perguntas de cada dissertação estão no [README](README.md). Use esta lista para acompanhar as tarefas.
 
 ## Fase 0 — Estruturar o Research Lab
 
-- [ ] Criar uma pasta `reading-notes/`.
-- [ ] Criar uma pasta `projects/`.
-- [ ] Criar uma pasta `ppgcc/`.
+- [ ] Criar `reading-notes/`, `projects/` e `ppgcc/`.
 - [ ] Criar um template para notas de leitura.
-- [ ] Criar um diário simples de decisões e mudanças de interesse.
+- [ ] Criar um diário de decisões e mudanças de interesse.
 
----
+## Fase 1 — Ler as dissertações
 
-# Fase 1 — Exploração por dissertações
+Para cada trabalho:
 
-## Como ler
+- [ ] Ler o resumo, a introdução e a conclusão.
+- [ ] Registrar o problema, os objetivos e a abordagem em termos simples.
+- [ ] Anotar conceitos desconhecidos, referências importantes e novas perguntas.
+- [ ] Dar uma nota de interesse de 0 a 5 e decidir se vale uma leitura aprofundada.
+- [ ] Criar uma nota em `reading-notes/`.
 
-Para cada dissertação, na primeira passagem:
+Leituras principais:
 
-- [ ] Ler o resumo.
-- [ ] Ler a introdução.
-- [ ] Identificar problema e objetivos.
-- [ ] Ler a conclusão.
-- [ ] Registrar a abordagem/metodologia em termos simples.
-- [ ] Anotar conceitos desconhecidos.
-- [ ] Anotar referências que parecem importantes.
-- [ ] Registrar novas perguntas.
-- [ ] Dar uma nota de interesse de 0 a 5.
-- [ ] Decidir se vale uma segunda leitura mais profunda.
+- [ ] **A1 — Runtime assurance:** avaliar o interesse por sistemas adaptativos, modelagem e verificação.
+- [ ] **A2 — IoT e apoio à decisão:** observar como arquitetura, IoT, IA e modelos semânticos são combinados; avaliar o interesse pelo problema fora do domínio da pecuária.
+- [ ] **B1 — Edge–Fog–Cloud:** identificar variáveis, métricas e desenho experimental; avaliar o interesse em montar e medir sistemas distribuídos.
+- [ ] **B2 — Streaming em Fog/Cloud:** identificar configurações e métricas; avaliar o interesse em benchmarking, medição e otimização.
+- [ ] **C1 — DevFinder:** identificar dados e método de avaliação; avaliar o interesse em pesquisar dados produzidos por desenvolvedores.
+- [ ] **C2 — Recomendação de revisores:** identificar dados e métodos; avaliar o interesse em reproduzir ou atualizar o estudo com técnicas atuais, como embeddings ou LLMs.
 
-Não é necessário entender todos os detalhes técnicos nesta fase.
+Leitura complementar:
 
----
+- [ ] **Identificação de especialistas:** ler se o eixo C estiver entre os favoritos; observar o uso de GitHub, análise de redes, semântica e machine learning; comparar com C1 e C2.
 
-## Eixo A — Engenharia de Software / Sistemas Adaptativos
+## Fase 2 — Comparar os eixos
 
-### A1 — Runtime assurance de sistemas adaptativos
+- [ ] Ordenar as dissertações por interesse.
+- [ ] Identificar problemas, métodos, conceitos e professores que aparecem nos trabalhos favoritos.
+- [ ] Anotar quais conceitos despertaram interesse e quais não despertaram.
+- [ ] Escolher quais eixos atraem mais: arquitetura/software, infraestrutura/distribuição ou dados/IA.
+- [ ] Comparar a preferência entre construir artefatos e avaliar experimentos.
+- [ ] Comparar o interesse em sistemas em execução, dados de repositórios e modelos conceituais.
+- [ ] Descrever que tipo de problema teria interesse em investigar por dois anos.
+- [ ] Selecionar duas subáreas e uma área principal, ainda provisórias.
 
-**A model-driven methodology to support runtime assurance of open and adaptive systems**  
-Luis Felipe de Almeida Nascimento, 2024.
+## Fase 3 — Mapear o PPGCC/UFJF
 
-https://repositorio.ufjf.br/jspui/handle/ufjf/17790
+Começar depois de identificar as leituras favoritas.
 
-- [ ] Ler resumo.
-- [ ] Ler introdução.
-- [ ] Identificar problema e objetivos.
-- [ ] Ler conclusão.
-- [ ] Criar nota em `reading-notes/`.
-- [ ] Responder: eu me interesso por sistemas que precisam adaptar seu comportamento em runtime?
-- [ ] Responder: modelagem/verificação me atrai ou parece distante do que quero fazer?
-
-### A2 — Arquitetura IoT auto-adaptativa + IA
-
-**An IoT Architecture for Decision Support System in Precision Livestock**  
-Jonas Silva Gomes, 2023.
-
-https://repositorio.ufjf.br/jspui/handle/ufjf/15455
-
-- [ ] Ler resumo.
-- [ ] Ler introdução.
-- [ ] Identificar problema e objetivos.
-- [ ] Ler conclusão.
-- [ ] Criar nota em `reading-notes/`.
-- [ ] Observar como uma arquitetura de software é avaliada como contribuição científica.
-- [ ] Observar a interseção entre arquitetura, IoT, IA e modelos semânticos.
-- [ ] Responder: o problema arquitetural me interessa independentemente do domínio de pecuária?
-
----
-
-## Eixo B — Sistemas Distribuídos / Cloud / Edge
-
-### B1 — Edge–Fog–Cloud e latência
-
-**Um estudo da arquitetura Edge-Fog-Cloud com foco na otimização distribuída do processamento e na redução da latência**  
-Thiago Goldoni Thomé, 2024.
-
-https://repositorio.ufjf.br/jspui/handle/ufjf/17261
-
-- [ ] Ler resumo.
-- [ ] Ler introdução.
-- [ ] Identificar problema e objetivos.
-- [ ] Ler conclusão.
-- [ ] Criar nota em `reading-notes/`.
-- [ ] Identificar variáveis manipuladas.
-- [ ] Identificar métricas de desempenho.
-- [ ] Anotar como os experimentos foram estruturados.
-- [ ] Responder: eu gostaria de montar e medir sistemas distribuídos desse tipo?
-
-### B2 — Streaming em Fog/Cloud
-
-**Um estudo experimental Streaming-Fog-Cloud**  
-Lucas Otaviano Larcher, 2023.
-
-https://repositorio.ufjf.br/jspui/handle/ufjf/15339
-
-- [ ] Ler resumo.
-- [ ] Ler introdução.
-- [ ] Identificar problema e objetivos.
-- [ ] Ler conclusão.
-- [ ] Criar nota em `reading-notes/`.
-- [ ] Identificar quais configurações são comparadas.
-- [ ] Identificar consumo de recursos e métricas utilizadas.
-- [ ] Observar como uma questão de infraestrutura é transformada em estudo experimental.
-- [ ] Responder: benchmarking, medição e otimização me interessam?
-
----
-
-## Eixo C — IA aplicada à Engenharia de Software
-
-### C1 — Recomendação de especialistas em desenvolvimento
-
-**DevFinder: an architecture for recommending software development specialists with industry-specific expertise in desired technologies**  
-Vitor Queiroz de Campos, 2024.
-
-https://repositorio.ufjf.br/jspui/handle/ufjf/17419
-
-- [ ] Ler resumo.
-- [ ] Ler introdução.
-- [ ] Identificar problema e objetivos.
-- [ ] Ler conclusão.
-- [ ] Criar nota em `reading-notes/`.
-- [ ] Identificar quais dados são utilizados.
-- [ ] Identificar como a recomendação é avaliada.
-- [ ] Responder: eu gostaria de pesquisar problemas usando dados produzidos por desenvolvedores?
-
-### C2 — Recomendação de revisores usando GitHub
-
-**Recomendação de revisores de código no desenvolvimento distribuído de software**  
-Vinicius Junqueira Schettino, 2019.
-
-https://repositorio.ufjf.br/jspui/handle/ufjf/12138
-
-- [ ] Ler resumo.
-- [ ] Ler introdução.
-- [ ] Identificar problema e objetivos.
-- [ ] Ler conclusão.
-- [ ] Criar nota em `reading-notes/`.
-- [ ] Observar como dados de repositórios GitHub são utilizados.
-- [ ] Identificar como os métodos são avaliados.
-- [ ] Perguntar: como esse trabalho poderia ser atualizado hoje com embeddings ou LLMs?
-- [ ] Responder: eu teria vontade de reproduzir uma parte desse experimento?
-
----
-
-## Leitura ponte opcional
-
-### Identificação de especialistas + redes sociais + ML
-
-**An architectural framework for expert identification based on social network analysis**  
-Tales Lopes Silva, 2022.
-
-https://repositorio.ufjf.br/jspui/handle/ufjf/15518
-
-- [ ] Ler caso o eixo C esteja entre os favoritos.
-- [ ] Observar o uso de dados do GitHub.
-- [ ] Observar a combinação entre análise de redes, semântica e machine learning.
-- [ ] Comparar com DevFinder e com a dissertação de recomendação de revisores.
-
----
-
-# Fase 2 — Comparar os eixos
-
-Depois das seis leituras principais:
-
-- [ ] Revisar todas as notas.
-- [ ] Ordenar as dissertações por interesse pessoal.
-- [ ] Identificar quais problemas apareceram repetidamente.
-- [ ] Identificar quais métodos pareceram mais interessantes.
-- [ ] Identificar quais professores aparecem nos trabalhos favoritos.
-- [ ] Listar os conceitos que mais despertaram curiosidade.
-- [ ] Listar os conceitos que definitivamente não despertaram interesse.
-
-Responder por escrito:
-
-- [ ] Qual eixo mais me interessa hoje?
-- [ ] Qual é o segundo eixo?
-- [ ] Prefiro arquitetura/software, infraestrutura/distribuição ou dados/IA?
-- [ ] Prefiro construir artefatos ou executar avaliações experimentais?
-- [ ] Gosto de trabalhar com sistemas em execução, datasets/repositórios ou modelos conceituais?
-- [ ] Que tipo de problema eu teria curiosidade de investigar por dois anos?
-
-Resultado esperado:
-
-- [ ] Selecionar duas subáreas provisórias.
-- [ ] Selecionar uma área principal provisória.
-
----
-
-# Fase 3 — Mapear o PPGCC/UFJF
-
-Somente depois de identificar as leituras favoritas:
-
-- [ ] Levantar os orientadores das dissertações favoritas.
-- [ ] Ler a página acadêmica/Lattes desses professores.
+- [ ] Levantar os orientadores dos trabalhos favoritos e consultar suas páginas acadêmicas e Lattes.
 - [ ] Identificar laboratórios e grupos de pesquisa relacionados.
-- [ ] Ver dissertações anteriores e posteriores orientadas pelos mesmos professores.
-- [ ] Ver artigos recentes dos grupos.
-- [ ] Criar uma lista de 2 a 4 possíveis orientadores.
-- [ ] Registrar os temas recorrentes de cada professor.
+- [ ] Consultar dissertações e artigos dos grupos.
+- [ ] Listar de 2 a 4 possíveis orientadores e registrar os temas recorrentes de cada um.
 
----
+## Fase 4 — Escolher o Projeto Zero
 
-# Fase 4 — Escolher o Projeto Zero
-
-Não escolher antes de terminar o ciclo inicial de leitura.
-
-Possibilidades atuais:
-
-- [ ] IA aplicada a repositórios de software.
-- [ ] Recomendação de desenvolvedores/revisores.
-- [ ] Autoscaling de sistemas distribuídos.
-- [ ] Edge–Cloud/Fog e latência.
-- [ ] Arquiteturas/sistemas auto-adaptativos.
-- [ ] Outra ideia surgida durante as leituras.
+Escolher depois do ciclo inicial de leitura. Opções atuais: IA aplicada a repositórios, recomendação de desenvolvedores ou revisores, autoscaling, Edge–Cloud/Fog ou sistemas adaptativos.
 
 Antes de implementar:
 
-- [ ] Formular uma pergunta simples.
-- [ ] Registrar por que a pergunta parece interessante.
+- [ ] Formular uma pergunta e registrar por que ela interessa.
 - [ ] Definir uma hipótese ou expectativa inicial.
-- [ ] Encontrar pelo menos 3 referências relacionadas.
-- [ ] Definir métricas.
-- [ ] Definir um experimento pequeno e reproduzível.
-- [ ] Registrar o desenho experimental antes de executar.
+- [ ] Encontrar pelo menos três referências relacionadas.
+- [ ] Definir métricas e um experimento pequeno e reproduzível.
+- [ ] Registrar o desenho experimental antes de executá-lo.
 
 Depois:
 
-- [ ] Executar o experimento.
-- [ ] Publicar código e instruções de reprodução.
-- [ ] Documentar dados e resultados.
-- [ ] Documentar resultados negativos.
-- [ ] Documentar limitações.
-- [ ] Escrever uma conclusão curta.
-- [ ] Registrar quais erros metodológicos eu consigo identificar.
+- [ ] Executar o experimento e publicar código e instruções de reprodução.
+- [ ] Documentar dados, resultados, limitações e resultados negativos.
+- [ ] Escrever uma conclusão curta e registrar erros metodológicos identificados.
 
----
+## Fase 5 — Preparar 2027
 
-# Fase 5 — Preparar 2027
-
-- [ ] Acompanhar publicação do calendário acadêmico do PPGCC.
-- [ ] Acompanhar oferta de disciplinas de 2027.
+- [ ] Acompanhar o calendário e a oferta de disciplinas do PPGCC.
 - [ ] Identificar disciplinas isoladas alinhadas às áreas escolhidas.
-- [ ] Priorizar uma primeira disciplina que eu consiga cursar com bom desempenho.
-- [ ] Verificar requisitos e prazo para matrícula isolada.
-- [ ] Preparar documentação necessária.
+- [ ] Verificar requisitos, prazo de matrícula e documentos necessários.
+- [ ] Priorizar uma primeira disciplina que permita bom desempenho.
 
----
+## Fase 6 — Durante a primeira disciplina isolada
 
-# Fase 6 — Durante a primeira disciplina isolada
-
-- [ ] Participar ativamente.
-- [ ] Fazer as atividades com foco em desempenho acadêmico.
-- [ ] Registrar conceitos e métodos que melhorem o Research Lab.
-- [ ] Conhecer melhor a linha de pesquisa do professor.
-- [ ] Conversar sobre interesses acadêmicos quando houver contexto.
+- [ ] Participar das atividades com foco em desempenho acadêmico.
+- [ ] Registrar conceitos e métodos relevantes para o Research Lab.
+- [ ] Conhecer a linha de pesquisa do professor e conversar sobre interesses acadêmicos quando houver contexto.
 - [ ] Identificar novos trabalhos para leitura.
-- [ ] Revisar criticamente o Projeto Zero.
-- [ ] Comparar minha metodologia inicial com o que estou aprendendo.
+- [ ] Revisar o Projeto Zero e comparar sua metodologia com o que estiver aprendendo.
 
----
-
-# Fase 7 — Segundo semestre de 2027
+## Fase 7 — Segundo semestre de 2027
 
 - [ ] Decidir se vale cursar uma segunda disciplina isolada.
-- [ ] Refinar uma pergunta de pesquisa mais séria.
-- [ ] Identificar um possível orientador principal.
+- [ ] Refinar a pergunta de pesquisa e identificar um possível orientador principal.
 - [ ] Produzir um experimento mais rigoroso.
-- [ ] Avaliar possibilidade de resumo, pôster ou artigo.
-- [ ] Atualizar Currículo Lattes.
-- [ ] Organizar comprovantes acadêmicos e profissionais.
+- [ ] Avaliar a possibilidade de apresentar um resumo, pôster ou artigo.
+- [ ] Atualizar o Currículo Lattes e organizar comprovantes acadêmicos e profissionais.
 
----
+## Fase 8 — Candidatura 2028
 
-# Fase 8 — Candidatura 2028
+- [ ] Acompanhar o edital e ler os critérios de seleção.
+- [ ] Organizar os componentes de pontuação e confirmar os documentos exigidos.
+- [ ] Definir o problema de pesquisa e elaborar o projeto.
+- [ ] Revisar fundamentação, metodologia e cronograma; pedir feedback a professores quando apropriado.
+- [ ] Organizar referências acadêmicas, se exigidas, e revisar o Currículo Lattes.
+- [ ] Submeter a candidatura.
 
-- [ ] Acompanhar publicação do edital.
-- [ ] Ler todos os critérios de seleção.
-- [ ] Montar uma planilha com os componentes de pontuação.
-- [ ] Confirmar documentação exigida.
-- [ ] Definir problema de pesquisa.
-- [ ] Elaborar projeto.
-- [ ] Revisar fundamentação.
-- [ ] Revisar metodologia.
-- [ ] Revisar cronograma.
-- [ ] Solicitar feedback de professores, quando apropriado.
-- [ ] Organizar referências acadêmicas, se exigidas.
-- [ ] Revisar Currículo Lattes.
-- [ ] Submeter candidatura.
+## Critério de sucesso para 2026
 
----
+Até o fim do ano, devo conseguir identificar:
 
-# Critério de sucesso para 2026
-
-Até o final do ano, não preciso ter decidido minha dissertação.
-
-Preciso conseguir responder com segurança:
-
-1. Quais duas subáreas mais me interessam?
-2. Que tipos de problemas nessas áreas despertam minha curiosidade?
-3. Quais dissertações mais influenciaram essa decisão?
-4. Quais professores do PPGCC trabalham com temas próximos?
-5. Qual será meu primeiro experimento documentado no Research Lab?
+- [ ] As duas subáreas de maior interesse e os problemas que despertam curiosidade.
+- [ ] As dissertações que mais influenciaram essa escolha.
+- [ ] Professores do PPGCC que pesquisam temas próximos.
+- [ ] Um primeiro experimento documentado para o Research Lab.
