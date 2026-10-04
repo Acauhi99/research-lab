@@ -96,6 +96,7 @@ A pergunta desta fase é: eu teria curiosidade de investigar esse tipo de proble
 
 **Autor:** Luis Felipe de Almeida Nascimento  
 **Orientador:** André Luiz de Oliveira  
+**Coorientadora:** Regina Maria Maciel Braga  
 **Ano:** 2024
 
 Tema central: garantia de propriedades em tempo de execução de sistemas abertos e adaptativos, com abordagem orientada a modelos.
@@ -139,6 +140,7 @@ Perguntas para a leitura:
 
 **Autor:** Thiago Goldoni Thomé  
 **Orientador:** Mario Antonio Ribeiro Dantas  
+**Coorientador:** Victor Ströele de Andrade Menezes  
 **Ano:** 2024
 
 Tema central: avaliação de diferentes configurações Edge–Fog–Cloud e seus efeitos sobre latência e capacidade de processamento.
@@ -154,7 +156,7 @@ Perguntas para a leitura:
 - O que caracteriza o experimento?
 - Eu gostaria de montar e medir sistemas desse tipo?
 
-#### B2. Um estudo experimental Streaming-Fog-Cloud
+#### B2. Um estudo experimental streaming-fog-cloud
 
 **Autor:** Lucas Otaviano Larcher  
 **Orientador:** Victor Ströele de Andrade Menezes  
@@ -202,6 +204,7 @@ Perguntas para a leitura:
 
 **Autor:** Vinicius Junqueira Schettino  
 **Orientador:** Victor Ströele de Andrade Menezes  
+**Coorientador:** Marco Antônio Pereira Araújo  
 **Ano:** 2019
 
 Tema central: recomendação de revisores utilizando dados históricos de repositórios open source no GitHub e relações entre desenvolvedores.
